@@ -34,7 +34,7 @@ public class Vtigerautomationng extends BaseTest {
 		Basepage bp=new Basepage(wuc);
 		llp.clickOnLeadsLink();
 		bp.clickOnPlus();
-		llp.firstNameBox("Kishan");
+		llp.firstNameBox("Ram");
 		llp.lastNameBox("Singh");
 		llp.companyNameBox("fratiy");
 		llp.titleBox("politician");
