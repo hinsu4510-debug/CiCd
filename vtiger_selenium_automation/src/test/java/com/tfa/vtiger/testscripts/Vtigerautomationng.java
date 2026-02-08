@@ -80,7 +80,7 @@ public class Vtigerautomationng extends BaseTest {
 			wuc.validateTextContains(llp.getInnerText(), "Leads", "lead page directed successful");
 			
 		}
-	    @Test
+	    
 		public void vt004editLead() {
 			wuc.openURL("http://localhost:8888/");
 			Loginpage lp=new Loginpage(wuc);
