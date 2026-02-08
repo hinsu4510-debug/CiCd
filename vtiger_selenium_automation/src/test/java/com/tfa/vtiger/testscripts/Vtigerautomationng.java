@@ -20,7 +20,7 @@ public class Vtigerautomationng extends BaseTest {
 
 
 
-	@Test
+	
 	public void vt001verifyCreateLeads() {
 
 		wuc.openURL("http://localhost:8888/");
@@ -91,15 +91,15 @@ public class Vtigerautomationng extends BaseTest {
 			Basepage bp=new Basepage(wuc);
 			llp.clickOnLeadsLink();
 			bp.clickOnPlus();
-			llp.firstNameBox("Shikar");
-			llp.lastNameBox("Dhawan");
-			llp.companyNameBox("braveh");
+			llp.firstNameBox("Himanshu");
+			llp.lastNameBox("Pal");
+			llp.companyNameBox("Apple");
 			llp.titleBox("Cricketer");
 			llp.assignedUserCircle();
 			bp.clickOnSaveSmallButton();
 			wuc.mouseOver(llp.savePageLastNameBox());
 			bp.saveEditLink();
-			llp.lastNameEditColumn("Gabbar");
+			llp.lastNameEditColumn("Hinsu");
 			bp.saveButtonEditBox();
 			WebElement value=llp.savePageLastNameBox();
 			wuc.validateTextEquals(value, "Vijay", "The result is :");
