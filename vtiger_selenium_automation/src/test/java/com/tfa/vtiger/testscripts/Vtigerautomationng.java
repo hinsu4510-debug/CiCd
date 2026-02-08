@@ -29,7 +29,6 @@ public class Vtigerautomationng extends BaseTest {
 		lp.enterUserName("admin");
 		lp.enterUserPassword("0000");
 		lp.clickOnSubmitButton();
-
 		Leadslandingpage llp= new Leadslandingpage(wuc);
 		Basepage bp=new Basepage(wuc);
 		llp.clickOnLeadsLink();
