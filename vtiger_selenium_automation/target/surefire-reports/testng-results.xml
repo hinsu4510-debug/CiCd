@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-08T15:23:49 IST" name="Suite" finished-at="2026-02-08T15:24:41 IST" duration-ms="52594">
+    <groups>
+    </groups>
+    <test started-at="2026-02-08T15:23:49 IST" name="Test" finished-at="2026-02-08T15:24:41 IST" duration-ms="52594">
+      <class name="com.tfa.vtiger.testscripts.Vtigerautomationng">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba]" started-at="2026-02-08T15:23:48 IST" name="beforeSuite" finished-at="2026-02-08T15:23:49 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba]" started-at="2026-02-08T15:23:49 IST" name="login" finished-at="2026-02-08T15:23:52 IST" duration-ms="3444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tfa.vtiger.testscripts.Vtigerautomationng.vt001verifyCreateLeads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="vt001verifyCreateLeads()[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba]" started-at="2026-02-08T15:23:52 IST" name="vt001verifyCreateLeads" finished-at="2026-02-08T15:24:16 IST" duration-ms="23757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vt001verifyCreateLeads -->
+        <test-method is-config="true" signature="afterTestCase(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba]" started-at="2026-02-08T15:24:16 IST" name="afterTestCase" finished-at="2026-02-08T15:24:17 IST" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vt001verifyCreateLeads status=SUCCESS method=Vtigerautomationng.vt001verifyCreateLeads()[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tfa.vtiger.testscripts.Vtigerautomationng.vt001verifyCreateLeads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba]" started-at="2026-02-08T15:24:17 IST" name="login" finished-at="2026-02-08T15:24:18 IST" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tfa.vtiger.testscripts.Vtigerautomationng.vt004editLead()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="vt004editLead()[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba]" started-at="2026-02-08T15:24:18 IST" name="vt004editLead" finished-at="2026-02-08T15:24:40 IST" duration-ms="21876" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The result is : - Expected: 'Orangee', Actual: '  Gabbar']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The result is : - Expected: 'Orangee', Actual: '  Gabbar'
+at org.tfa.vtiger.utils.WebUtil.validateTextEquals(WebUtil.java:932)
+at com.tfa.vtiger.testscripts.Vtigerautomationng.vt004editLead(Vtigerautomationng.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vt004editLead -->
+        <test-method is-config="true" signature="afterTestCase(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba]" started-at="2026-02-08T15:24:40 IST" name="afterTestCase" finished-at="2026-02-08T15:24:41 IST" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vt004editLead status=FAILURE method=Vtigerautomationng.vt004editLead()[pri:0, instance:com.tfa.vtiger.testscripts.Vtigerautomationng@6cf0e0ba] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tfa.vtiger.testscripts.Vtigerautomationng.vt004editLead()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+      </class> <!-- com.tfa.vtiger.testscripts.Vtigerautomationng -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

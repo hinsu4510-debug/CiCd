@@ -1,0 +1,58 @@
+package com.tfa.vtiger.runner;
+import org.testng.annotations.*;
+
+public class TestCase1 {
+	
+	//TestNG recognise by this test annotation
+	
+	@BeforeSuite
+	public void beforeSuite() {
+		System.out.println("This is before suite...");
+	}
+	
+	@AfterSuite
+	public void afterSuite() {
+		System.out.println("This is after suite...");
+	}
+	
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("This is before class method...");
+	}
+	
+	@AfterClass
+	public void afterClass() {
+		System.out.println("This is after class method...");
+	}
+	
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("This is before method...");
+	}
+	
+	@AfterMethod
+	public void afterMethod() {
+		System.out.println("This is after method...");
+	}
+	
+	@Test
+	public void test1() {
+		System.out.println("This is test1");
+	}
+	
+	@Test
+	public void test2() {
+		System.out.println("This is test2..");
+	}
+	
+	@BeforeTest
+	public void beforeTest() {
+		System.out.println("This is before Test..");
+	}
+	
+	@AfterTest
+	public void afterTest() {
+		System.out.println("This is after Test..");
+	}
+
+}

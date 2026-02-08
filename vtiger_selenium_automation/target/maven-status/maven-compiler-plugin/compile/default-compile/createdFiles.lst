@@ -1,0 +1,13 @@
+org\eva\vtiger\pages\Emaillandingpage.class
+org\tfa\vtiger\utils\WebUtil.class
+org\eva\vtiger\pages\Leadslandingpage.class
+org\eva\vtiger\pages\Loginpage.class
+org\eva\vtiger\pages\Morelandingpage.class
+org\eva\vtiger\pages\Contactslandingpage.class
+org\eva\vtiger\pages\Troubleticketslandingpg.class
+org\eva\vtiger\pages\Organizationlandingpage.class
+org\eva\vtiger\pages\RedBusClass.class
+org\eva\vtiger\pages\Productslandingpage.class
+org\eva\vtiger\pages\Basepage.class
+org\eva\vtiger\pages\Opportunitieslandingpage.class
+org\eva\vtiger\pages\Documentslandingpage.class
