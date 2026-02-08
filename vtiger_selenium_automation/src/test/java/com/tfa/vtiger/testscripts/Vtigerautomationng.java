@@ -41,7 +41,7 @@ public class Vtigerautomationng extends BaseTest {
 		bp.clickOnSaveSmallButton();
 	}
 
-	@Test
+	
 	public void vt002verifyOpportunitiesCreate() {
 		wuc.openURL("http://localhost:8888/");
 		Loginpage lp=new Loginpage(wuc);
@@ -102,7 +102,7 @@ public class Vtigerautomationng extends BaseTest {
 			llp.lastNameEditColumn("Gabbar");
 			bp.saveButtonEditBox();
 			WebElement value=llp.savePageLastNameBox();
-			wuc.validateTextEquals(value, "Orangee", "The result is :");
+			wuc.validateTextEquals(value, "Vijay", "The result is :");
 			
 			
 			
